@@ -1,0 +1,14 @@
+function zadatak1(broj){
+	var brojParnih = 0;
+	var brojNeparnih = 0;
+	if(broj<0)broj=-broj;
+	while(broj!=0){
+		if(broj%10%2==0)brojParnih++;
+		else brojNeparnih++;
+		broj=Math.floor(broj/10);
+	}
+	if (brojParnih==brojNeparnih)
+		return true;
+	else 
+		return false;  
+}

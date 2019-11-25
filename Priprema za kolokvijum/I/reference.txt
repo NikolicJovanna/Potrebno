@@ -1,0 +1,9 @@
+window width - 700px
+
+body - #394753
+	   
+header - Georgia, serif
+
+boxovi - Tahoma,sans-serif
+
+menu - hover: bela pozadina, crni font

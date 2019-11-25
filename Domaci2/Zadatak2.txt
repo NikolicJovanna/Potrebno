@@ -1,0 +1,14 @@
+function zadatak2(niz,string){
+	var broj = eval(string);
+	for(var i = 0; i < niz.length; i++){
+		imenioci = []
+		for(var j = 0; j < niz.length; j++)
+		{
+			
+			if(niz[i]/niz[j]==broj && j!=i && !imenioci.includes(niz[j])){
+				imenioci.push(niz[j])
+				console.log(niz[i]+" "+niz[j]);
+			}
+		}
+	}
+}

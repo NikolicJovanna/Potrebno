@@ -1,0 +1,13 @@
+function zadatak3(recenica){
+	niz = recenica.split(" ");
+	for(var i = 0; i < niz.length; i++){
+		if(niz[i].length>3){
+			granica=Math.floor(niz[i].length/2);
+			rec=niz[i].slice(granica,niz[i].length)+niz[i].slice(0,granica);
+			niz[i]=rec;
+		}
+	}
+	var satrovacka=niz.join(" ");
+	console.log(satrovacka);
+	return satrovacka;
+}

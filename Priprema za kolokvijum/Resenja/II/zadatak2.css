@@ -1,0 +1,76 @@
+body {
+	background-color:#333;
+}
+
+.naslov {
+	padding-left:10px;
+	padding-bottom:2px;
+	padding-top:2px;
+	color:white;
+	font-weight:bold;
+	background-color:#ff7a09;
+}
+
+.linkovi {
+	padding:10px;
+	color:#ff7a09;
+	background-color:#FFBE9F;
+	border:1px #ff7a09 solid;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#333;
+	
+}
+
+#wrapper {
+	background-color:white;
+	margin:auto;
+	width:800px;
+	height:700px;
+	padding:10px;
+}
+
+#header {
+	background-image:url(images/bg.jpg);
+	margin:5px;
+	padding:5px;
+}
+
+#header h1{
+	color:white;
+	font-weight:normal;
+	font-family:verdana;
+}
+
+#menu {
+	margin:15px;
+	height:500px;
+	float:left;
+}
+
+#menu p {
+	line-height:25px;
+}
+
+#main {
+	line-height:25px;
+}
+
+#main  h2{
+	color:#ff7a09;
+}
+
+#main img{
+	float:right;
+	border: #ccc solid 2px;
+	margin-right: 10px;
+}
+
+#footer {
+	font:12px arial;
+	border-top:#ccc solid 1px;
+	text-align:center;
+	padding:10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Zadatak 4 </title>
+    <script type="text/javascript">
+    	function zadatak4(){
+	    	var redovi = document.getElementById("rows").value;
+	    	console.log(typeof(redovi));
+	    	var kolone = document.getElementById("cols").value;
+	    	if (redovi>=1 && redovi <=15 && kolone>=1 && kolone<=15){
+	    		document.write("<table>");
+	    		for(var i = 0; i < redovi; i++){
+	    			document.write("<tr>");
+	    			for(var j = 0; j<kolone;j++){
+	    				document.write("<td>");
+	    				document.write(i**j);
+	    				document.write("</td>");
+
+	    			}
+	    			//document.write("<br>");
+	    			document.write("</tr>");
+	    		}
+	    		document.write("</table>");
+	    	}
+	    }
+    </script>
+</head>
+
+<body>
+    <label> Rows: </label>
+    <input type="text" id="rows"><br><br>
+    <label> Columns: </label>
+    <input type="text" id="cols"><br><br>
+    <button id="submit-button" onclick="zadatak4()"> Generate table </button>
+
+
+</body>
+
+</html>
